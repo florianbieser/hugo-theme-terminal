@@ -256,10 +256,12 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+        weight = 2
       [[languages.en.menu.footer]]
         identifier = "imprint"
         name = "Imprint"
