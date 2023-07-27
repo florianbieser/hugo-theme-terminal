@@ -33,3 +33,11 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.footer]]
+        identifier = "imprint"
+        name = "Imprint"
+        url = "/imprint"
+      [[languages.en.menu.social]]
+        identifier = "facebook"
+        name = "Facebook"
+        url = "https://facebook.com"

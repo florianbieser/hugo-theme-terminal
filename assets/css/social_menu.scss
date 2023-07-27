@@ -1,0 +1,12 @@
+.social-menu {
+  margin: 0 auto!important;
+  opacity: .5;
+}
+.social {
+  margin: 0 auto!important;
+}
+@media (max-width: 684px) {
+  .social-menu ul {
+    flex-direction: row;
+  }
+}

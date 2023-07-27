@@ -1,0 +1,15 @@
+<!--
+individual social menu
+-->
+{{ if gt ($.Site.Menus.social) 0 }}
+<p class="social">{{ $.Site.Params.socialMenuText | default "Follow me on..." }}</p>
+<nav class="social-menu">
+  <ul class="navigation-menu__inner">
+    {{ range $.Site.Menus.social }}
+      {{ if not .HasChildren }}
+        <li><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
